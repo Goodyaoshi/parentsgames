@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Board -->
+    <path android:fillColor="#E6DAC6" android:strokeColor="#6B665E" android:strokeWidth="1.5"
+        android:pathData="M 16,20 L 104,20 L 104,100 L 16,100 Z"/>
+    <!-- Grid -->
+    <path android:strokeColor="#8A8378" android:strokeWidth="1"
+        android:pathData="M 16,40 L 104,40 M 16,60 L 104,60 M 16,80 L 104,80"/>
+    <path android:strokeColor="#8A8378" android:strokeWidth="1"
+        android:pathData="M 36,20 L 36,100 M 56,20 L 56,100 M 76,20 L 76,100"/>
+    <!-- Black stones -->
+    <path android:fillColor="#2C2A26" android:strokeColor="#14120F" android:strokeWidth="1"
+        android:pathData="M 36,40 m -8,0 a 8,8 0 1 1 16,0 a 8,8 0 1 1 -16,0"/>
+    <path android:fillColor="#2C2A26" android:strokeColor="#14120F" android:strokeWidth="1"
+        android:pathData="M 56,60 m -8,0 a 8,8 0 1 1 16,0 a 8,8 0 1 1 -16,0"/>
+    <path android:fillColor="#2C2A26" android:strokeColor="#14120F" android:strokeWidth="1"
+        android:pathData="M 76,80 m -8,0 a 8,8 0 1 1 16,0 a 8,8 0 1 1 -16,0"/>
+    <!-- White stones -->
+    <path android:fillColor="#FFFFFE" android:strokeColor="#8A8378" android:strokeWidth="1"
+        android:pathData="M 56,40 m -8,0 a 8,8 0 1 1 16,0 a 8,8 0 1 1 -16,0"/>
+    <path android:fillColor="#FFFFFE" android:strokeColor="#8A8378" android:strokeWidth="1"
+        android:pathData="M 76,60 m -8,0 a 8,8 0 1 1 16,0 a 8,8 0 1 1 -16,0"/>
+    <path android:fillColor="#FFFFFE" android:strokeColor="#8A8378" android:strokeWidth="1"
+        android:pathData="M 36,80 m -8,0 a 8,8 0 1 1 16,0 a 8,8 0 1 1 -16,0"/>
+</vector>

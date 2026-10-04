@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- 华容道棋盘 -->
+    <path android:fillColor="#E6DAC6" android:strokeColor="#6B665E" android:strokeWidth="1.5"
+        android:pathData="M 22,18 L 98,18 L 98,102 L 22,102 Z"/>
+    <!-- 曹操 2×2 大块 -->
+    <path android:fillColor="#C03A2B" android:strokeColor="#8E2A1E" android:strokeWidth="1.5"
+        android:pathData="M 33,26 L 87,26 L 87,66 L 33,66 Z"/>
+    <path android:fillColor="#FFFFFE"
+        android:pathData="M 54,38 m -9,0 a 9,9 0 1 1 18,0 a 9,9 0 1 1 -18,0"/>
+    <!-- 竖块 -->
+    <path android:fillColor="#D4A24A" android:strokeColor="#A87B2E" android:strokeWidth="1"
+        android:pathData="M 26,70 L 44,70 L 44,98 L 26,98 Z"/>
+    <path android:fillColor="#D4A24A" android:strokeColor="#A87B2E" android:strokeWidth="1"
+        android:pathData="M 76,70 L 94,70 L 94,98 L 76,98 Z"/>
+    <!-- 横块 -->
+    <path android:fillColor="#C97B5C" android:strokeColor="#9C5B41" android:strokeWidth="1"
+        android:pathData="M 48,70 L 72,70 L 72,84 L 48,84 Z"/>
+    <!-- 出口 -->
+    <path android:fillColor="#8A8378"
+        android:pathData="M 52,102 L 68,102 L 68,110 L 52,110 Z"/>
+</vector>

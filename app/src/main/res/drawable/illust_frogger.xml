@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Faixas de fundo (rua + grama) -->
+    <path android:fillColor="#7A9B7E"
+        android:pathData="M 0,12 L 120,12 L 120,30 L 0,30 Z"/>
+    <path android:fillColor="#4A8AB8"
+        android:pathData="M 0,30 L 120,30 L 120,52 L 0,52 Z"/>
+    <path android:fillColor="#E6DAC6"
+        android:pathData="M 0,52 L 120,52 L 120,64 L 0,64 Z"/>
+    <path android:fillColor="#2C2A26"
+        android:pathData="M 0,64 L 120,64 L 120,96 L 0,96 Z"/>
+    <path android:fillColor="#7A9B7E"
+        android:pathData="M 0,96 L 120,96 L 120,120 L 0,120 Z"/>
+    <!-- Linhas brancas da rua -->
+    <path android:fillColor="#FFFFFE" android:fillAlpha="0.7"
+        android:pathData="M 6,80 L 18,80 L 18,82 L 6,82 Z M 30,80 L 42,80 L 42,82 L 30,82 Z M 54,80 L 66,80 L 66,82 L 54,82 Z M 78,80 L 90,80 L 90,82 L 78,82 Z M 102,80 L 114,80 L 114,82 L 102,82 Z"/>
+    <!-- Carros -->
+    <path android:fillColor="#E24B4A"
+        android:pathData="M 26,68 L 56,68 L 56,76 L 26,76 Z"/>
+    <path android:fillColor="#E24B4A"
+        android:pathData="M 76,84 L 106,84 L 106,92 L 76,92 Z"/>
+    <!-- Tronco -->
+    <path android:fillColor="#8B5A2B"
+        android:pathData="M 14,38 L 50,38 L 50,46 L 14,46 Z"/>
+    <!-- Sapo na grama base -->
+    <path android:fillColor="#1E6B3C"
+        android:pathData="M 56,98 C 56,94 64,94 64,98 C 64,104 56,104 56,98 Z"/>
+    <path android:fillColor="#FFFFFE"
+        android:pathData="M 57,97 C 57,96 59,96 59,97 C 59,98 57,98 57,97 Z M 61,97 C 61,96 63,96 63,97 C 63,98 61,98 61,97 Z"/>
+    <path android:fillColor="#1F1B17"
+        android:pathData="M 58,97 C 58,96.5 59,96.5 59,97 C 59,97.5 58,97.5 58,97 Z M 62,97 C 62,96.5 63,96.5 63,97 C 63,97.5 62,97.5 62,97 Z"/>
+</vector>

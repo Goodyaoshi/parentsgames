@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- 数独：3×3 示意 -->
+    <path android:fillColor="#E6DAC6" android:strokeColor="#6B665E" android:strokeWidth="1"
+        android:pathData="M 20,24 L 100,24 L 100,104 L 20,104 Z"/>
+    <path android:fillColor="#FFFFFE" android:strokeColor="#8A8378" android:strokeWidth="0.75"
+        android:pathData="M 20,50.6 L 100,50.6 M 20,77.3 L 100,77.3 M 46.6,24 L 46.6,104 M 73.3,24 L 73.3,104"/>
+    <!-- 粗宫线 -->
+    <path android:strokeColor="#2C2A26" android:strokeWidth="2.5"
+        android:pathData="M 20,24 L 100,24 L 100,104 L 20,104 Z M 46.6,24 L 46.6,104 M 73.3,24 L 73.3,104 M 20,50.6 L 100,50.6 M 20,77.3 L 100,77.3"/>
+    <!-- 已填数字格（色块示意） -->
+    <path android:fillColor="#C03A2B"
+        android:pathData="M 26,30 L 41,30 L 41,45 L 26,45 Z"/>
+    <path android:fillColor="#D4A24A"
+        android:pathData="M 79,56 L 94,56 L 94,72 L 79,72 Z"/>
+    <path android:fillColor="#C97B5C"
+        android:pathData="M 53,83 L 67,83 L 67,98 L 53,98 Z"/>
+</vector>

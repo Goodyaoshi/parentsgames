@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- 背面朝上的牌 -->
+    <path android:fillColor="#C03A2B" android:strokeColor="#8E2A1E" android:strokeWidth="1.5"
+        android:pathData="M 24,26 L 58,26 A 6,6 0 0 1 64,32 L 64,90 A 6,6 0 0 1 58,96 L 24,96 A 6,6 0 0 1 18,90 L 18,32 A 6,6 0 0 1 24,26 Z"/>
+    <path android:fillColor="#E6FFFFFF"
+        android:pathData="M 41,38 m -8,0 a 8,8 0 1 1 16,0 a 8,8 0 1 1 -16,0"/>
+    <!-- 翻开的牌 -->
+    <path android:fillColor="#FFFFFE" android:strokeColor="#C7B89F" android:strokeWidth="1.5"
+        android:pathData="M 66,30 L 96,30 A 6,6 0 0 1 102,36 L 102,84 A 6,6 0 0 1 96,90 L 66,90 A 6,6 0 0 1 60,84 L 60,36 A 6,6 0 0 1 66,30 Z"/>
+    <!-- 桃心 -->
+    <path android:fillColor="#C03A2B"
+        android:pathData="M 81,74 L 66,58 C 62,53 64,46 70,45 C 74,44.5 77,47 81,51 C 85,47 88,44.5 92,45 C 98,46 100,53 96,58 Z"/>
+</vector>

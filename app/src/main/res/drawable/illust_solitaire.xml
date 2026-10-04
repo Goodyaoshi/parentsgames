@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Carta de fundo (atrás) -->
+    <path android:fillColor="#FFFFFE" android:strokeColor="#2C2A26" android:strokeWidth="1.4"
+        android:pathData="M 24,28 L 60,28 L 60,84 L 24,84 Z"/>
+    <!-- Carta da frente -->
+    <path android:fillColor="#FFFFFE" android:strokeColor="#2C2A26" android:strokeWidth="1.4"
+        android:pathData="M 50,40 L 96,40 L 96,100 L 50,100 Z"/>
+    <!-- Coração no centro da carta da frente -->
+    <path android:fillColor="#B8351F"
+        android:pathData="M 73,60 C 76,55 84,55 84,62 C 84,70 73,80 73,80 C 73,80 62,70 62,62 C 62,55 70,55 73,60 Z"/>
+    <!-- A no canto -->
+    <path android:fillColor="#B8351F"
+        android:pathData="M 56,46 L 60,56 L 56,56 L 56,46 Z M 53,56 L 59,56 L 56,46 Z"/>
+    <!-- Espadas atrás -->
+    <path android:fillColor="#1F1B17"
+        android:pathData="M 36,42 C 38,38 44,38 44,44 C 44,50 36,58 36,58 C 36,58 28,50 28,44 C 28,38 34,38 36,42 Z"/>
+</vector>

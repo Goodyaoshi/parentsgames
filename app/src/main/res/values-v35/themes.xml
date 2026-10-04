@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Android 15 (API 35) passa a IMPOR edge-to-edge para apps com targetSdk 35.
+      Para o primeiro release mantemos o layout atual (com barras de sistema
+      respeitadas via systemBarsPadding) optando por sair dessa imposição.
+      Quando subirmos para targetSdk 36, este opt-out deixa de valer — aí o app
+      deve tratar os insets de borda a borda em todas as telas.
+    -->
+    <style name="Theme.FatimaGames" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/canvas_light</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+    </style>
+</resources>

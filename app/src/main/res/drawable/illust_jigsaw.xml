@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Peça de puzzle clássica em terracotta + sage -->
+    <path
+        android:fillColor="#C97B5C"
+        android:strokeColor="#2C2A26"
+        android:strokeWidth="1.5"
+        android:pathData="M 24,36
+                L 50,36
+                C 50,30 56,24 64,24
+                C 72,24 78,30 78,36
+                L 96,36
+                L 96,60
+                C 102,60 108,66 108,74
+                C 108,82 102,88 96,88
+                L 96,104
+                L 78,104
+                C 78,110 72,116 64,116
+                C 56,116 50,110 50,104
+                L 24,104
+                L 24,80
+                C 18,80 12,74 12,66
+                C 12,58 18,52 24,52 Z"/>
+    <!-- Peça menor por trás, em sage -->
+    <path
+        android:fillColor="#7A9B7E"
+        android:fillAlpha="0.75"
+        android:strokeColor="#2C2A26"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.6"
+        android:pathData="M 60,12
+                L 76,12
+                C 76,8 80,4 84,4
+                C 88,4 92,8 92,12
+                L 108,12
+                L 108,28
+                C 112,28 116,32 116,36
+                C 116,40 112,44 108,44
+                L 108,56
+                L 92,56
+                C 92,60 88,64 84,64
+                C 80,64 76,60 76,56
+                L 60,56
+                L 60,40
+                C 56,40 52,36 52,32
+                C 52,28 56,24 60,24 Z"/>
+</vector>

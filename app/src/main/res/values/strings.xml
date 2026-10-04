@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">爸妈游戏厅</string>
+    <string name="mahjong_no_moves">没有可配对的棋子了，要不要洗个牌？</string>
+</resources>

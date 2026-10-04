@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Grid 3x3 -->
+    <path android:fillColor="#E6DAC6" android:strokeColor="#6B665E" android:strokeWidth="1"
+        android:pathData="M 18,24 L 48,24 L 48,54 L 18,54 Z"/>
+    <path android:fillColor="#FFFFFE" android:strokeColor="#6B665E" android:strokeWidth="1"
+        android:pathData="M 48,24 L 78,24 L 78,54 L 48,54 Z"/>
+    <path android:fillColor="#E6DAC6" android:strokeColor="#6B665E" android:strokeWidth="1"
+        android:pathData="M 78,24 L 108,24 L 108,54 L 78,54 Z"/>
+    <path android:fillColor="#FFFFFE" android:strokeColor="#6B665E" android:strokeWidth="1"
+        android:pathData="M 18,54 L 48,54 L 48,84 L 18,84 Z"/>
+    <path android:fillColor="#E6DAC6" android:strokeColor="#6B665E" android:strokeWidth="1"
+        android:pathData="M 48,54 L 78,54 L 78,84 L 48,84 Z"/>
+    <path android:fillColor="#FFFFFE" android:strokeColor="#6B665E" android:strokeWidth="1"
+        android:pathData="M 78,54 L 108,54 L 108,84 L 78,84 Z"/>
+    <path android:fillColor="#E6DAC6" android:strokeColor="#6B665E" android:strokeWidth="1"
+        android:pathData="M 18,84 L 48,84 L 48,108 L 18,108 Z"/>
+    <path android:fillColor="#FFFFFE" android:strokeColor="#6B665E" android:strokeWidth="1"
+        android:pathData="M 48,84 L 78,84 L 78,108 L 48,108 Z"/>
+    <path android:fillColor="#E6DAC6" android:strokeColor="#6B665E" android:strokeWidth="1"
+        android:pathData="M 78,84 L 108,84 L 108,108 L 78,84 Z"/>
+    <!-- Bandeira na primeira -->
+    <path android:fillColor="#B8351F"
+        android:pathData="M 27,32 L 27,46 L 36,40 L 27,38 Z"/>
+    <path android:fillColor="#1F1B17" android:strokeWidth="1.5"
+        android:pathData="M 26,32 L 26,48"/>
+    <!-- Número 3 no centro -->
+    <path android:fillColor="#B8351F"
+        android:pathData="M 60,62 L 66,62 L 66,68 L 62,68 L 66,68 L 66,76 L 60,76 Z"/>
+</vector>

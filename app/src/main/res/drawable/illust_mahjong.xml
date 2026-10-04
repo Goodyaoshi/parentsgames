@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Tile 1 (atrás, à esquerda) -->
+    <path
+        android:fillColor="#F4ECD6"
+        android:strokeColor="#2C2A26"
+        android:strokeWidth="1.4"
+        android:pathData="M 12,28 L 44,28 L 44,84 L 12,84 Z"/>
+    <path
+        android:fillColor="#7A9B7E"
+        android:pathData="M 22,42 L 34,42 L 34,46 L 22,46 Z
+                          M 22,52 L 34,52 L 34,56 L 22,56 Z
+                          M 22,62 L 34,62 L 34,66 L 22,66 Z
+                          M 22,72 L 34,72 L 34,76 L 22,76 Z"/>
+    <!-- Tile 2 (frente, direita, levemente sobreposto) -->
+    <path
+        android:fillColor="#F4ECD6"
+        android:strokeColor="#2C2A26"
+        android:strokeWidth="1.4"
+        android:pathData="M 56,36 L 96,36 L 96,100 L 56,100 Z"/>
+    <path
+        android:fillColor="#C97B5C"
+        android:pathData="M 64,52 L 88,52 L 88,58 L 64,58 Z
+                          M 64,62 L 76,62 L 76,68 L 64,68 Z
+                          M 80,62 L 88,62 L 88,80 L 80,80 Z
+                          M 64,72 L 76,72 L 76,80 L 64,80 Z"/>
+</vector>

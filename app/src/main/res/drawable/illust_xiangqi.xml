@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Board -->
+    <path android:fillColor="#E6DAC6" android:strokeColor="#6B665E" android:strokeWidth="1.5"
+        android:pathData="M 14,22 L 106,22 L 106,98 L 14,98 Z"/>
+    <!-- Grid lines -->
+    <path android:strokeColor="#8A8378" android:strokeWidth="1"
+        android:pathData="M 14,40 L 106,40 M 14,60 L 106,60 M 14,80 L 106,80"/>
+    <path android:strokeColor="#8A8378" android:strokeWidth="1"
+        android:pathData="M 14,22 L 14,98 M 37,22 L 37,98 M 60,22 L 60,98 M 83,22 L 83,98 M 106,22 L 106,98"/>
+    <!-- River -->
+    <path android:fillColor="#D8C8AC"
+        android:pathData="M 14,52 L 106,52 L 106,60 L 14,60 Z"/>
+    <!-- Red piece -->
+    <path android:fillColor="#C03A2B" android:strokeColor="#8E2A1E" android:strokeWidth="1.5"
+        android:pathData="M 26,31 m -11,0 a 11,11 0 1 1 22,0 a 11,11 0 1 1 -22,0"/>
+    <path android:fillColor="#FFFFFE"
+        android:pathData="M 26,31 m -8,0 a 8,8 0 1 1 16,0 a 8,8 0 1 1 -16,0"/>
+    <!-- Black piece -->
+    <path android:fillColor="#2C2A26" android:strokeColor="#14120F" android:strokeWidth="1.5"
+        android:pathData="M 90,88 m -11,0 a 11,11 0 1 1 22,0 a 11,11 0 1 1 -22,0"/>
+    <path android:fillColor="#4A4740"
+        android:pathData="M 90,88 m -8,0 a 8,8 0 1 1 16,0 a 8,8 0 1 1 -16,0"/>
+</vector>

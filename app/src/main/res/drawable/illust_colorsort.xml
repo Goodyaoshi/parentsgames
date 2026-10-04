@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Tubo 1 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.4"
+        android:strokeColor="#6B665E"
+        android:strokeWidth="1.5"
+        android:pathData="M 18,20 L 34,20 L 34,98 C 34,104 30,108 26,108 C 22,108 18,104 18,98 Z"/>
+    <path android:fillColor="#E24B4A" android:pathData="M 19,72 L 33,72 L 33,86 L 19,86 Z"/>
+    <path android:fillColor="#378ADD" android:pathData="M 19,86 L 33,86 L 33,100 C 33,103 30,106 26,106 C 22,106 19,103 19,100 Z"/>
+    <!-- Tubo 2 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.4"
+        android:strokeColor="#6B665E"
+        android:strokeWidth="1.5"
+        android:pathData="M 52,14 L 68,14 L 68,98 C 68,104 64,108 60,108 C 56,108 52,104 52,98 Z"/>
+    <path android:fillColor="#E5B23A" android:pathData="M 53,58 L 67,58 L 67,72 L 53,72 Z"/>
+    <path android:fillColor="#7B5E8C" android:pathData="M 53,72 L 67,72 L 67,86 L 53,86 Z"/>
+    <path android:fillColor="#5E8C5B" android:pathData="M 53,86 L 67,86 L 67,100 C 67,103 64,106 60,106 C 56,106 53,103 53,100 Z"/>
+    <!-- Tubo 3 (vazio) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.4"
+        android:strokeColor="#6B665E"
+        android:strokeWidth="1.5"
+        android:pathData="M 86,20 L 102,20 L 102,98 C 102,104 98,108 94,108 C 90,108 86,104 86,98 Z"/>
+    <!-- Gota indo de tubo 2 pro 3 -->
+    <path android:fillColor="#E5B23A" android:pathData="M 75,32 Q 80,28 84,34 Q 86,38 82,40 Q 76,38 75,32 Z"/>
+</vector>
