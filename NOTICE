@@ -1,0 +1,26 @@
+爸妈游戏厅（Parent Games）
+==========================
+
+本项目基于开源社区项目 caioross/FatimaGames 二次开发：
+    https://github.com/caioross/FatimaGames
+
+许可证说明
+----------
+经核实，上游仓库 caioross/FatimaGames 未附带任何开源许可证（GitHub 标注 license: null）。
+本衍生项目仅在其基础上进行简体中文化、老年人适配以及新增小游戏等自研改造，
+并保留对原作者的署名与致谢。除自研改造部分外，原始代码与素材的权利归原作者所有。
+如需将本项目用于再分发，请自行确认上游授权情况，或联系原作者补充许可证。
+
+主要改造方向
+------------
+- 全面简体中文化，按老年人习惯重设计界面与字号；
+- 新增中国象棋 / 五子棋 / 华容道 / 数独 / 翻牌配对等游戏；
+- 调整多款游戏玩法以降低操作门槛，新增演示模式。
+
+使用的第三方组件及其许可证
+--------------------------
+- AndroidX / Jetpack Compose — Apache License 2.0
+- Hilt / Room / Navigation Compose — Apache License 2.0
+- Kotlinx Coroutines — Apache License 2.0
+
+以上组件的版权归其各自作者所有，本项目仅按原许可证条款使用。
